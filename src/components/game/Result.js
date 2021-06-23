@@ -39,8 +39,8 @@ const Result = ({ selection, setSelection, cpu, cpuOption, updateScore }) => {
   return (
     <div className="container container-result">
       <div className="row1 row2 row1-result">
-        <div className={`option ${selection}`} style={{ margin: "0" }}></div>
-        <div className={`option ${cpu}`} style={{ margin: "0" }}></div>
+        <div className={`option ${selection}`} style={{ margin: "0" }} />
+        <div className={`option ${cpu}`} style={{ margin: "0" }} />
       </div>
       <div className="row-p">
         <p>you picked</p>

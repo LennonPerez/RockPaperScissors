@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Game from "./components/Game";
-import GameBonus from "./components/GameBonus";
+import Game from "./pages/Game";
+import GameBonus from "./pages/GameBonus";
 import "./styles/app.css";
 
 function App() {

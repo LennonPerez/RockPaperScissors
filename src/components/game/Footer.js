@@ -1,10 +1,11 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
-import imagen from "../styles/images/icon-close.svg";
-import instructions from "../styles/images/image-rules.svg";
+import imagen from "../../styles/images/icon-close.svg";
+import instructions from "../../styles/images/image-rules.svg";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -48,6 +49,9 @@ const Footer = () => {
       <button className="btn" type="button" onClick={handleOpen}>
         Rules
       </button>
+      <Link to={"/game-bonus"} className=" btn btn-bonus">
+        BONUS GAME
+      </Link>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"

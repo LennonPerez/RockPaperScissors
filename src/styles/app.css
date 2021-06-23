@@ -45,6 +45,10 @@ header .container .img-container {
   background-size: contain;
 }
 
+header .container .img-bonus {
+  background-image: url(./images/logo-bonus.svg);
+}
+
 header .container .score-container {
   width: 5rem;
   height: 70%;
@@ -312,6 +316,52 @@ main .container .row1 .scissors {
   }
 }
 
+main .container .row1 .spock {
+  border: 15px solid #40b9ce;
+  background-image: url(./images/icon-spock.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 900px) {
+  main .container .row1 .spock {
+    width: 10rem;
+    height: 10rem;
+    background-size: 4rem;
+    border: 25px solid #40b9ce;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .container .row1 .spock {
+    width: 12rem;
+    height: 12rem;
+    background-size: 5.3rem;
+    border: 30px solid #40b9ce;
+  }
+}
+
+@media (min-width: 1400px) {
+  main .container .row1 .spock {
+    width: 17rem;
+    height: 17rem;
+    background-size: 7rem;
+    border: 40px solid #40b9ce;
+  }
+}
+
+@media (min-width: 2000px) {
+  main .container .row1 .spock {
+    width: 25rem;
+    height: 25rem;
+    background-size: 9rem;
+    border: 55px solid #40b9ce;
+  }
+}
+
 main .container .row2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -382,6 +432,65 @@ main .container .row2 .rock {
     height: 25rem;
     background-size: 9rem;
     border: 55px solid #dc2e4e;
+  }
+}
+
+main .container .row2 .lizard {
+  width: 7rem;
+  height: 7rem;
+  background-color: white;
+  border-radius: 9999999px;
+  border: 15px solid #834fe3;
+  background-image: url(./images/icon-lizard.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+  background-color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+@media (min-width: 585px) {
+  main .container .row2 .lizard {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  main .container .row2 .lizard {
+    width: 10rem;
+    height: 10rem;
+    background-size: 4rem;
+    border: 25px solid #834fe3;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .container .row2 .lizard {
+    width: 12rem;
+    height: 12rem;
+    background-size: 5.3rem;
+    border: 30px solid #834fe3;
+  }
+}
+
+@media (min-width: 1400px) {
+  main .container .row2 .lizard {
+    width: 17rem;
+    height: 17rem;
+    background-size: 7rem;
+    border: 40px solid #834fe3;
+  }
+}
+
+@media (min-width: 2000px) {
+  main .container .row2 .lizard {
+    width: 25rem;
+    height: 25rem;
+    background-size: 9rem;
+    border: 55px solid #834fe3;
   }
 }
 
@@ -505,6 +614,43 @@ main .container-result .row1-result .option {
   }
 }
 
+@media (min-width: 585px) {
+  main .container-result .row1-result .spock {
+    border: 20px solid #40b9ce;
+  }
+}
+
+@media (min-width: 900px) {
+  main .container-result .row1-result .spock {
+    border: 30px solid #40b9ce;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .container-result .row1-result .spock {
+    border: 40px solid #40b9ce;
+    background-position: 4rem;
+  }
+}
+
+@media (min-width: 585px) {
+  main .container-result .row1-result .lizard {
+    border: 20px solid #834fe3;
+  }
+}
+
+@media (min-width: 900px) {
+  main .container-result .row1-result .lizard {
+    border: 30px solid #834fe3;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .container-result .row1-result .lizard {
+    border: 40px solid #834fe3;
+  }
+}
+
 main .container-result .row-p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -614,6 +760,271 @@ main .container-result .row2-result button {
   }
 }
 
+main .bonus {
+  background-image: url(./images/bg-pentagon.svg);
+}
+
+@media (max-height: 570px) {
+  main .bonus {
+    background-size: 50% 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .bonus {
+    background-size: 40% 60%;
+    background-position: 50% 47%;
+  }
+}
+
+main .bonus .row1 {
+  position: relative;
+  top: 1.5rem;
+}
+
+@media (min-width: 585px) {
+  main .bonus .row1 {
+    height: 80%;
+  }
+}
+
+main .bonus .row1 .scissors {
+  border: 15px solid #ec9e0e;
+  width: 6rem;
+  height: 6rem;
+  background-size: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  main .bonus .row1 .scissors {
+    width: 8rem;
+    height: 8rem;
+    border: 20px solid #ec9e0e;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .bonus .row1 .scissors {
+    width: 9rem;
+    height: 9rem;
+    background-size: 3.5rem;
+    border: 25px solid #ec9e0e;
+  }
+}
+
+@media (min-width: 1400px) {
+  main .bonus .row1 .scissors {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  main .bonus .row1 .scissors {
+    width: 18rem;
+    height: 18rem;
+    background-size: 7rem;
+    border: 40px solid #ec9e0e;
+  }
+}
+
+main .bonus .medium {
+  top: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  main .bonus .medium {
+    width: 70%;
+  }
+}
+
+main .bonus .medium .spock {
+  border: 15px solid #40b9ce;
+  width: 6rem;
+  height: 6rem;
+  background-size: 2.5rem;
+  background-position: 1rem;
+}
+
+@media (min-width: 900px) {
+  main .bonus .medium .spock {
+    width: 8rem;
+    height: 8rem;
+    background-position: 1.5rem;
+    border: 20px solid #40b9ce;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .bonus .medium .spock {
+    width: 9rem;
+    height: 9rem;
+    background-size: 3rem;
+    background-position: 1.7rem;
+    border: 25px solid #40b9ce;
+  }
+}
+
+@media (min-width: 1400px) {
+  main .bonus .medium .spock {
+    width: 11rem;
+    height: 11rem;
+    background-position: 2.6rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  main .bonus .medium .spock {
+    width: 18rem;
+    height: 18rem;
+    background-size: 7rem;
+    background-position: 3.5rem;
+    border: 40px solid #40b9ce;
+  }
+}
+
+main .bonus .medium .paper {
+  border: 15px solid #4865f4;
+  width: 6rem;
+  height: 6rem;
+  background-size: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  main .bonus .medium .paper {
+    width: 8rem;
+    height: 8rem;
+    border: 20px solid #4865f4;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .bonus .medium .paper {
+    width: 9rem;
+    height: 9rem;
+    background-size: 3rem;
+    border: 25px solid #4865f4;
+  }
+}
+
+@media (min-width: 1400px) {
+  main .bonus .medium .paper {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  main .bonus .medium .paper {
+    width: 18rem;
+    height: 18rem;
+    background-size: 7rem;
+    border: 40px solid #4865f4;
+  }
+}
+
+main .bonus .row2 {
+  width: 60%;
+  min-width: 12rem;
+  margin: 0.5rem auto 1rem auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 900px) {
+  main .bonus .row2 {
+    width: 55%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .bonus .row2 {
+    width: 50%;
+  }
+}
+
+main .bonus .row2 .rock {
+  border: 15px solid #dc2e4e;
+  width: 6rem;
+  height: 6rem;
+  background-size: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  main .bonus .row2 .rock {
+    width: 8rem;
+    height: 8rem;
+    border: 20px solid #dc2e4e;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .bonus .row2 .rock {
+    width: 9rem;
+    height: 9rem;
+    background-size: 3rem;
+    border: 25px solid #dc2e4e;
+  }
+}
+
+@media (min-width: 1400px) {
+  main .bonus .row2 .rock {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  main .bonus .row2 .rock {
+    width: 18rem;
+    height: 18rem;
+    background-size: 7rem;
+    border: 40px solid #dc2e4e;
+  }
+}
+
+main .bonus .row2 .lizard {
+  border: 15px solid #834fe3;
+  width: 6rem;
+  height: 6rem;
+  background-size: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  main .bonus .row2 .lizard {
+    width: 8rem;
+    height: 8rem;
+    border: 20px solid #834fe3;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .bonus .row2 .lizard {
+    width: 9rem;
+    height: 9rem;
+    background-size: 3rem;
+    border: 25px solid #834fe3;
+  }
+}
+
+@media (min-width: 1400px) {
+  main .bonus .row2 .lizard {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  main .bonus .row2 .lizard {
+    width: 18rem;
+    height: 18rem;
+    background-size: 7rem;
+    border: 40px solid #834fe3;
+  }
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -635,6 +1046,7 @@ footer .btn {
   font-size: 1rem;
   text-transform: uppercase;
   cursor: pointer;
+  margin: 0 1rem;
 }
 
 @media (min-width: 585px) {
@@ -643,6 +1055,18 @@ footer .btn {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
+  }
+}
+
+footer .btn-bonus {
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (min-width: 585px) {
+  footer .btn-bonus {
+    left: 1rem;
+    right: 0;
   }
 }
 
